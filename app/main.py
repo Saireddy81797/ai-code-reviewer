@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
-from reviewer import analyze_code
-from github_integration import process_github_event
+from app.reviewer import analyze_code
+from app.github_integration import process_github_event
 
 app = Flask(__name__)
 
