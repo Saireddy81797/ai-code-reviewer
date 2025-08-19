@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from app.reviewer import analyze_code
+from reviewer import analyze_code
 from app.github_integration import process_github_event
 
 app = Flask(__name__)
