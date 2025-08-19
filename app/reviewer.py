@@ -2,7 +2,6 @@ import ast
 from app.complexity import check_complexity
 from app.security_checks import run_security_checks
 
-
 def analyze_code(code: str):
     """
     Run AST parsing, complexity check, and security checks.
